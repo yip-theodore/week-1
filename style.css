@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: blue;
+  margin: 40px;
+}
+
+#main {
+  background-color: white;
+  width: 794px;
+  /* height: 1123px; */
+  padding: 40px;
+  margin: auto;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.secondary {
+  color: grey;
+  font-size: 14px;
+}
